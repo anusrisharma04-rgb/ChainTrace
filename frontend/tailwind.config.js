@@ -1,0 +1,63 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        charcoal: {
+          DEFAULT: '#292727',
+          50: '#F5F5F5',
+          100: '#E6E5E5',
+          200: '#C8C7C7',
+          300: '#9B9999',
+          400: '#5F5C5C',
+          500: '#292727',
+          600: '#222020',
+          700: '#1C1A1A',
+          800: '#151414',
+          900: '#0E0D0D',
+        },
+        burgundy: {
+          DEFAULT: '#701F36',
+          50: '#FDF2F4',
+          100: '#FCE7EB',
+          200: '#F8D0D9',
+          300: '#F1A9B9',
+          400: '#B83259',
+          500: '#701F36',
+          600: '#5B192C',
+          700: '#461322',
+          800: '#320E18',
+          900: '#1E080F',
+        },
+        ivory: {
+          DEFAULT: '#F4EFE5',
+          50: '#FCFAF6',
+          100: '#FAF7F2',
+          200: '#F4EFE5',
+          300: '#E8DEC9',
+          400: '#D7C7A5',
+          500: '#C3AD7E',
+        },
+        forest: {
+          DEFAULT: '#244C3A',
+          50: '#F1F7F4',
+          100: '#E0EFE8',
+          200: '#C3DFD2',
+          300: '#95C5B0',
+          400: '#4E8A6E',
+          500: '#244C3A',
+          600: '#1D3D2F',
+          700: '#162F24',
+          800: '#0F2019',
+          900: '#08110D',
+        },
+      },
+    },
+  },
+  plugins: [],
+}

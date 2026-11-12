@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# System files
+.DS_Store
+
+# IDE
+.vscode/
+.env
+.venv/
+__pycache__/
+*.pyc
+# Old virtual environments
+.venv_old/
+
+# Uploaded forensic evidence and runtime files
+uploads/
